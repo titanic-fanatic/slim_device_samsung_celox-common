@@ -23,8 +23,8 @@ $(call inherit-product-if-exists, vendor/samsung/celox-common/celox-common-vendo
 DEVICE_PACKAGE_OVERLAYS += device/samsung/celox-common/overlay
 
 # Device uses high-density artwork where available
-PRODUCT_AAPT_CONFIG := normal hdpi
-PRODUCT_AAPT_PREF_CONFIG := hdpi
+PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
